@@ -8,5 +8,4 @@ end
 target 'MLVerticalProgressView_Tests', :exclusive => true do
   pod "MLVerticalProgressView", :path => "../"
 
-  pod 'FBSnapshotTestCase'
 end
