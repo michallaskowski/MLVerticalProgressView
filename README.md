@@ -7,6 +7,8 @@
 
 Vertical Progress View written in Swift, with @IBInspectables and progress change animation.
 
+![screenshot](Screenshots/screenshot.gif)
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
