@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/MLVerticalProgressView.svg?style=flat)](http://cocoapods.org/pods/MLVerticalProgressView)
 [![Platform](https://img.shields.io/cocoapods/p/MLVerticalProgressView.svg?style=flat)](http://cocoapods.org/pods/MLVerticalProgressView)
 
+Vertical Progress View written in Swift, with @IBInspectables and progress change animation.
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -17,7 +19,7 @@ MLVerticalProgressView is available through [CocoaPods](http://cocoapods.org). T
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "MLVerticalProgressView"
+pod "MLVerticalProgressView", :git => 'https://github.com/michallaskowski/MLVerticalProgressView.git
 ```
 
 ## Author

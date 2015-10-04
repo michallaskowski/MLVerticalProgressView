@@ -1,12 +1,13 @@
 //
 //  ViewController.swift
-//  MLVerticalProgressView
+//  VerticalProgressViewExample
 //
-//  Created by michallaskowski on 08/13/2015.
-//  Copyright (c) 2015 michallaskowski. All rights reserved.
+//  Created by mlaskowski on 11/08/15.
+//  Copyright (c) 2015 mlaskowski. All rights reserved.
 //
 
 import UIKit
+import MLVerticalProgressView
 
 class ViewController: UIViewController {
 
@@ -20,5 +21,12 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBOutlet weak var progressView: VerticalProgressView!
+
+    @IBAction func onSegmentedChange(sender: UISegmentedControl) {
+        
+        let progress : Float =  Float(sender.selectedSegmentIndex) * 0.25
+        self.progressView.setProgress(progress, animated: true)
+    }
 }
 
