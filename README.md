@@ -21,7 +21,7 @@ MLVerticalProgressView is available through [CocoaPods](http://cocoapods.org). T
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "MLVerticalProgressView", :git => 'https://github.com/michallaskowski/MLVerticalProgressView.git
+pod "MLVerticalProgressView"
 ```
 
 ## Author
